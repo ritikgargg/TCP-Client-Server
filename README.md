@@ -10,21 +10,30 @@
 
 ##### To set up the server
 &nbsp;&nbsp;&nbsp;&nbsp;- To compile the server:
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`gcc t1-server.c -o server`
 
 &nbsp;&nbsp;&nbsp;&nbsp;- To execute the server:
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`./server <port-number>`
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;where,
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`port-number` = The port number on which the server will accept connections
 
 ##### To set up the client
 &nbsp;&nbsp;&nbsp;&nbsp;- To compile the client:
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`gcc t1-client.c -o client`
 
 &nbsp;&nbsp;&nbsp;&nbsp;- To execute the client:
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`./client <server-ip-addr> <server-port>`
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;where,
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`server-ip-addr` =  The IP address of the server
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`server-port` = The port number on which the server is listening for connections
 
 ##### Commands for a sample run
@@ -51,21 +60,30 @@ The server reads the user's input from the client socket, evaluates the postfix 
 
 ##### To set up the server
 &nbsp;&nbsp;&nbsp;&nbsp;- To compile the server:
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`gcc t2-server.c -o server -lpthread`
 
 &nbsp;&nbsp;&nbsp;&nbsp;- To execute the server:
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`./server <port-number>`
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;where,
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`port-number` = The port number on which the server will accept connections
 
 ##### To set up the client
 &nbsp;&nbsp;&nbsp;&nbsp;- To compile the client:
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`gcc t2-client.c -o client`
 
 &nbsp;&nbsp;&nbsp;&nbsp;- To execute the client:
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`./client <server-ip-addr> <server-port>`
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;where,
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`server-ip-addr` =  The IP address of the server
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`server-port` = The port number on which the server is listening for connections
 
 **To set up multiple clients**, create executables with different names. For example:
